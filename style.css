@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    background: linear-gradient(#FCBACB, #82EEFD);
+    background-repeat: no-repeat;
+    height: 600px
+}
+
+img {
+    border-radius: 50%;
+    width: 100px;
+}
+
+.menu {
+
+    font-family: 'Pangolin';
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    cursor: pointer;
+    width: 100%;
+}
+
+.links {
+    display: inline;
+    color: #fff;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px
+}
