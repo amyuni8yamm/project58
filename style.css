@@ -50,3 +50,25 @@ img {
 #References a {
     font-size: :30px;
 }
+
+#picture {
+    width: auto;
+    height: 300px;
+    border-radius: 0%;
+    margin: 20px;
+}
+
+.inspiration {
+    background: #373B44;
+    background: linear-gradient(#4286f4, #373B44);
+    padding-top: 20px;
+}
+
+img {
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
